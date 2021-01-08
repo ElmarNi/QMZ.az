@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="owlCarousel/owl.theme.default.min.css">
 
     <!-- Font awasome -->
-    <script src="https://kit.fontawesome.com/73bdb97465.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/73bdb97465.js" crossorigin="anonymous"></script> -->
 
     <link rel="stylesheet" href="font/style.css">
 
@@ -23,9 +23,483 @@
 </head>
 <body>
     
-    <header> 
-        
+    <header id="large-screen-menu"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 logo">
+                    <a href="#">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 p-0">
+                    <ul class="menu">
+                        <li class="subed-li">
+                            <a href="#">
+                                Şirkət haqqında
+                                <svg> <path class="dropdown__icon" d="M698,17l4,4,4-4" transform="translate(-697.469 -16.469)"></path> </svg>
+                            </a>
+                            <ul class="submenu">
+                                <li><a href="#">Haqqımızda</a></li>
+                                <li><a href="#">Sertifikatlar</a></li>
+                                <li><a href="#">Karyera</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Məhsullar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Xidmətlər
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Layihələr
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Əlaqə
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 d-flex align-items-center justify-content-end">
+                    <div class="price-offer">
+                        <a href="#">Qiymət təklifi al</a>
+                    </div>
+                    <div class="lang ml-4">
+                        <a href="#">
+                            Az
+                            <svg> <path class="dropdown__icon" d="M698,17l4,4,4-4" transform="translate(-697.469 -16.469)"></path> </svg>
+                        </a>
+                        <ul>
+                            <li><a href="#">Ru</a></li>
+                            <li><a href="#">En</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
+
+    <section id="slider">
+        <div class="overlay"></div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 p-0">
+                            <img src="img/slider2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div class="item">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 p-0">
+                            <img src="img/slider1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+    
+    <section id="partners">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-1 text-center text-lg-left mb-4 mb-lg-0">
+                    <h5>Referanslar</h5>
+                </div>
+                <div class="col-lg-11">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="img/comp1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/comp1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/comp1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/comp1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/comp1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/comp1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/comp1.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="img/comp1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="advantages">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-8">
+                    <div class="item text-center">
+                        <div class="top">
+                            <img src="img/icon.png" alt="">
+                            <p>Lorem ipsum</p>
+                        </div>
+                        <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8">
+                    <div class="item text-center">
+                        <div class="top">
+                            <img src="img/icon.png" alt="">
+                            <p>Lorem ipsum</p>
+                        </div>
+                        <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8">
+                    <div class="item text-center">
+                        <div class="top">
+                            <img src="img/icon.png" alt="">
+                            <p>Lorem ipsum</p>
+                        </div>
+                        <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products-carousel">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <a href="#">
+                                <div class="image-wrapper">
+                                    <img src="img/product.jpg" alt="">
+                                    <p>2000$</p>
+                                </div>
+                                <p class="name">Lorem ipsum</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="image-wrapper">
+                                    <img src="img/product.jpg" alt="">
+                                    <p>2000$</p>
+                                </div>
+                                <p class="name">Lorem ipsum</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="image-wrapper">
+                                    <img src="img/product.jpg" alt="">
+                                    <p>2000$</p>
+                                </div>
+                                <p class="name">Lorem ipsum</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="image-wrapper">
+                                    <img src="img/product.jpg" alt="">
+                                    <p>2000$</p>
+                                </div>
+                                <p class="name">Lorem ipsum</p>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <div class="image-wrapper">
+                                    <img src="img/product.jpg" alt="">
+                                    <p>2000$</p>
+                                </div>
+                                <p class="name">Lorem ipsum</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="row heading align-items-center">
+                <div class="col-6">
+                    <h1>Layihələrimiz</h1>
+                </div>
+                <div class="col-6 text-right">
+                    <a href="#">Bütün layihələrə bax</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="item">
+                        <div class="image-wrapper">
+                            <div class="owl-carousel owl-theme second">
+                                <a href="#">
+                                    <img src="img/pro1.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="img/pro2.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="img/pro3.jpg" alt="">
+                                </a>
+                            </div>
+                            <p>2000$</p>
+                        </div>
+                        <a href="#">
+                            <p class="name">Lorem ipsum</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="item">
+                        <div class="image-wrapper">
+                            <div class="owl-carousel owl-theme second">
+                                <a href="#">
+                                    <img src="img/pro3.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="img/pro2.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="img/pro1.jpg" alt="">
+                                </a>
+                            </div>
+                            <p>2000$</p>
+                        </div>
+                        <a href="#">
+                            <p class="name">Lorem ipsum</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="item">
+                        <div class="image-wrapper">
+                            <div class="owl-carousel owl-theme second">
+                                <a href="#">
+                                    <img src="img/pro2.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="img/pro1.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="img/pro3.jpg" alt="">
+                                </a>
+                            </div>
+                            <p>2000$</p>
+                        </div>
+                        <a href="#">
+                            <p class="name">Lorem ipsum</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="product-categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-6">
+                    <a href="#">
+                        <div class="item" style="background-image: url(img/cat1.jpg);">
+                            <h4>Kateqoriya 1</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <a href="#">
+                        <div class="item" style="background-image: url(img/cat2.jpg);">
+                            <h4>Kateqoriya 2</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-3 two-cat-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-12 p-0 pl-sm-0 pr-sm-3 p-md-0">
+                                <a href="#">
+                                    <div class="item little" style="background-image: url(img/cat3.jpg);">
+                                        <h4>Kateqoriya 3</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-12 p-0 pr-sm-0 pl-sm-3 p-md-0">
+                                <a href="#">
+                                    <div class="item little" style="background-image: url(img/cat4.jpg);">
+                                        <h4>Kateqoriya 4</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 mt-30">
+                    <a href="#">
+                        <div class="item" style="background-image: url(img/cat5.jpg);">
+                            <h4>Kateqoriya 5</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-3 mt-30 two-cat-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-12 p-0 pl-sm-0 pr-sm-3 p-md-0">
+                                <a href="#">
+                                    <div class="item little" style="background-image: url(img/cat6.jpg);">
+                                        <h4>Kateqoriya 6</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-12 p-0 pr-sm-0 pl-sm-3 p-md-0">
+                                <a href="#">
+                                    <div class="item little" style="background-image: url(img/cat7.jpg);">
+                                        <h4>Kateqoriya 7</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 mt-30">
+                    <a href="#">
+                        <div class="item" style="background-image: url(img/cat8.jpg);">
+                            <h4>Kateqoriya 8</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-3 mt-30 two-cat-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-12 p-0 pl-sm-0 pr-sm-3 p-md-0">
+                                <a href="#">
+                                    <div class="item little" style="background-image: url(img/cat9.jpg);">
+                                        <h4>Kateqoriya 9</h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-12 p-0 pr-sm-0 pl-sm-3 p-md-0">
+                                <a href="#">
+                                    <div class="item little" style="background-image: url(img/cat10.jpg);">
+                                        <h4>Kateqoriya 10</h4>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="calltoaction">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-8 text-center text-md-left mb-4 mb-md-0">
+                    <h1>Sualınız var?</h1>
+                    <p>Bir kliklə whatsapp nömrəmizə yazın, dərhal yardımçı olaq.</p>
+                </div>
+                <div class="col-12 col-md-4 text-center text-md-right">
+                    <a href="#">WhatsApp-a yazın</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav>
+                            <ul class="d-flex flex-wrap justify-content-center">
+                                <li>
+                                    <a href="#">
+                                        Şirkət haqqında
+                                    </a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Məhsullar
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Xidmətlər
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Layihələr
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Əlaqə
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container content">
+            <div class="row align-items-center top justify-content-center">
+                <div class="col-md-6 col-lg-4 left text-center text-lg-left order-md-1">
+                    <p>© Copyright 2020. QMZ LLC.<br>Bütün hüquqları qorunur</p>
+                </div>
+                <div class="col-md-6 col-lg-4 middle py-3 my-4 my-lg-0 order-md-3 order-lg-2">
+                    <ul class="social-icons d-flex justify-content-center w-100">
+                        <li><a href="javascript:void(0)">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        </a></li>
+                        <li class="mx-3"><a href="javascript:void(0)">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a></li>
+                        <li><a href="javascript:void(0)">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </a></li>
+                        <li class="ml-3"><a href="javascript:void(0)">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4 right text-center text-lg-right order-md-2 order-lg-3">
+                    <p>
+                        Lökbatan qəs., Neftçilər küç. 13, Bakı şəh.
+                    </p>
+                    <p class="mt-2">
+                        Tel.: <a href="">(+994XX) XXX XX XX</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row bottom">
+                <div class="col-12">
+                    <p><b><span style="color:red">*</span> Lorem ipsum:</b> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quam corporis iure dolorum amet velit omnis odio ab accusantium ea enim distinctio minus in harum magnam nobis, architecto recusandae itaque? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Saytın hazırlanması: <a style="color: #4eac6a;" target="_blank" href="https://okmedia.az/">OKmedia</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
