@@ -59,6 +59,7 @@ body{
         }
         .subed-li{
             position: relative;
+            padding: 0 8px;
         }
         .submenu{
             position: absolute;
@@ -128,7 +129,6 @@ body{
     svg {
         width: 10px;
         height: 7px;
-        margin-left: 4px;
         pointer-events: none;
         transition: all .3s ease;
         .dropdown__icon {
@@ -199,6 +199,14 @@ body{
             }
         }
     }
+    .menu .submenu.pro-sub{
+        display: flex;
+        flex-wrap: wrap;
+        width: 450px;
+        li{
+            flex-basis: 50%;
+        }
+    }
 }
 #slider {
     position: relative;
@@ -207,14 +215,58 @@ body{
         width: 100%;
         object-fit: cover;
     }
+    .owl-dots{
+        margin: 0;
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+        button{
+            outline: none;
+            span{
+                margin: 0 8px;
+                width: 13px;
+                margin: 0 8px;
+                background: transparent;
+                border: 3px solid white;
+                height: 13px;
+                transition: all .3s ease;
+                &:hover{
+                    border-color: #c21416;
+                }
+            }
+        }
+        button.active{
+            span{
+                border-color: #c21416;
+            }
+        }
+    }
     .overlay{
         position: absolute;
         left: 0;
         right: 0;
-        bottom: 36px;
+        bottom: 0;
         top: 0;
         z-index: 2;
         background: linear-gradient(90deg, rgba(19,20,24,1) 35%, rgba(19,20,24,0.9626225490196079) 40%, rgba(255,255,255,0) 100%);
+    }
+    .content{
+        position: absolute;
+        z-index: 5;
+        top: 0;
+        left: 0;
+        left: 18%;
+        top: 50%;
+        transform: translateY(-50%);
+        color: white;
+        h1{
+            font-size: 33px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 18px;
+            margin-top: 15px;
+        }
     }
 }
 #partners{

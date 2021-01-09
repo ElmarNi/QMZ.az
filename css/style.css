@@ -69,6 +69,7 @@ body {
 }
 #large-screen-menu .menu .subed-li {
   position: relative;
+  padding: 0 8px;
 }
 #large-screen-menu .menu .submenu {
   position: absolute;
@@ -139,7 +140,6 @@ body {
 #large-screen-menu svg {
   width: 10px;
   height: 7px;
-  margin-left: 4px;
   pointer-events: none;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
@@ -210,6 +210,18 @@ body {
   border-bottom-color: #fff;
   top: -18px;
 }
+#large-screen-menu .menu .submenu.pro-sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 450px;
+}
+#large-screen-menu .menu .submenu.pro-sub li {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
 
 #slider {
   position: relative;
@@ -220,15 +232,59 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
+#slider .owl-dots {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+}
+#slider .owl-dots button {
+  outline: none;
+}
+#slider .owl-dots button span {
+  margin: 0 8px;
+  width: 13px;
+  margin: 0 8px;
+  background: transparent;
+  border: 3px solid white;
+  height: 13px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+#slider .owl-dots button span:hover {
+  border-color: #c21416;
+}
+#slider .owl-dots button.active span {
+  border-color: #c21416;
+}
 #slider .overlay {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 36px;
+  bottom: 0;
   top: 0;
   z-index: 2;
   background: -webkit-gradient(linear, left top, right top, color-stop(35%, #131418), color-stop(40%, rgba(19, 20, 24, 0.962622549)), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(90deg, #131418 35%, rgba(19, 20, 24, 0.962622549) 40%, rgba(255, 255, 255, 0) 100%);
+}
+#slider .content {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  left: 18%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: white;
+}
+#slider .content h1 {
+  font-size: 33px;
+  font-weight: bold;
+}
+#slider .content p {
+  font-size: 18px;
+  margin-top: 15px;
 }
 
 #partners {
