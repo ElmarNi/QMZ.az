@@ -15,8 +15,8 @@ body {
   margin: 0;
 }
 .heading a {
-  color: #777982;
-  border-bottom: 1px solid #777982;
+  color: #aeaeb4;
+  border-bottom: 1px solid #c2c2c2;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   font-size: 13px;
@@ -59,7 +59,7 @@ body {
   transition: all .3s ease;
 }
 #large-screen-menu .menu a:hover {
-  opacity: .8;
+  opacity: .7;
   text-decoration: none;
 }
 #large-screen-menu .menu li {
@@ -118,20 +118,15 @@ body {
   opacity: 1;
   visibility: visible;
 }
-#large-screen-menu .price-offer {
-  -ms-flex-preferred-size: 52%;
-      flex-basis: 52%;
-}
 #large-screen-menu .price-offer a {
   font-size: 15px;
-  padding: 10px 23px;
+  padding: 11px 48px;
   text-align: center;
   border-radius: 3px;
   -webkit-transition: all .2s;
   transition: all .2s;
   color: #fff;
   background: #c21416;
-  display: block;
 }
 #large-screen-menu .price-offer a:hover {
   background: #d42224;
@@ -143,6 +138,7 @@ body {
   pointer-events: none;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
+  margin-left: 4px;
 }
 #large-screen-menu svg .dropdown__icon {
   fill: none;
@@ -495,7 +491,7 @@ body {
 }
 
 #projects {
-  padding: 40px 0;
+  padding: 55px 0;
   padding-bottom: 0;
 }
 #projects .owl-nav {
@@ -571,14 +567,14 @@ body {
 
 #calltoaction {
   background: #f0f2f6;
-  padding: 40px 0;
+  padding: 35px 0;
 }
 #calltoaction h1 {
   font-size: 36px;
   font-weight: 700;
 }
 #calltoaction p {
-  margin-top: 20px;
+  margin-top: 0px;
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 0;
@@ -683,7 +679,7 @@ footer .menu ul a {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
 }
 footer .menu ul a:hover {
   opacity: .8;
