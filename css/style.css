@@ -419,12 +419,12 @@ body {
   margin-bottom: 15px;
   font-size: 18px;
 }
-#products-carousel .item .content p.category, #projects .item .content p.category {
+#products-carousel .item .content p.category, #products-carousel .item .content p.date, #projects .item .content p.category, #projects .item .content p.date {
   color: #aaa;
   font-size: 12px;
   font-weight: bold;
 }
-#products-carousel .item .content p.category img, #projects .item .content p.category img {
+#products-carousel .item .content p.category img, #products-carousel .item .content p.date img, #projects .item .content p.category img, #projects .item .content p.date img {
   width: 30px;
   height: 30px;
   display: inline;
@@ -520,6 +520,12 @@ body {
 }
 #projects .item a:hover {
   text-decoration: none;
+}
+#projects .item p.date {
+  text-align: right;
+}
+#projects .item p.date i {
+  margin-right: 6px;
 }
 
 #product-categories {
