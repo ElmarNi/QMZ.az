@@ -214,7 +214,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 450px;
+  width: 470px;
 }
 #large-screen-menu .menu .submenu.pro-sub li {
   -ms-flex-preferred-size: 50%;
