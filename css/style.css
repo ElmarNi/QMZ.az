@@ -713,6 +713,8 @@ footer .content .top .middle .social-icons li a {
 }
 footer .content .top .middle .social-icons li a i {
   font-size: 20px;
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
 }
 footer .content .top .middle .social-icons li a:hover {
   background-color: #bdc3c7;
