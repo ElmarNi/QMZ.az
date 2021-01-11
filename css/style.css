@@ -746,7 +746,7 @@ footer .menu ul a {
   display: block;
 }
 footer .menu ul a:hover {
-  opacity: .8;
+  opacity: .7;
 }
 
 @media (max-width: 1200px) {
